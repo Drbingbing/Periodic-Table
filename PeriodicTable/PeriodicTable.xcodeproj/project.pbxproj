@@ -162,8 +162,6 @@
 			dependencies = (
 			);
 			name = PeriodicTable;
-			packageProductDependencies = (
-			);
 			productName = PeriodicTable;
 			productReference = 30D7563A2AD8E3230045CDEE /* PeriodicTable.app */;
 			productType = "com.apple.product-type.application";
@@ -236,8 +234,6 @@
 				Base,
 			);
 			mainGroup = 30D756312AD8E3230045CDEE;
-			packageReferences = (
-			);
 			productRefGroup = 30D7563B2AD8E3230045CDEE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";

@@ -9,9 +9,9 @@ import UIKit
 
 private func swizzle(_ vc: UIViewController.Type) {
     [
-        (#selector(vc.viewDidLoad), #selector(vc.rt_viewDidLoad)),
-        (#selector(vc.viewWillAppear), #selector(vc.rt_viewWillAppear)),
-        (#selector(vc.traitCollectionDidChange), #selector(vc.rt_traitCollectionDidChange))
+        (#selector(vc.viewDidLoad), #selector(vc.pt_viewDidLoad)),
+        (#selector(vc.viewWillAppear), #selector(vc.pt_viewWillAppear)),
+        (#selector(vc.viewWillTransition), #selector(vc.pt_viewWillTransition))
     ].forEach { original, swizzled in
         
         guard let originalMethod = class_getInstanceMethod(vc, original),
@@ -49,22 +49,25 @@ extension UIViewController {
         swizzle(self)
     }
     
-    @objc fileprivate func rt_viewDidLoad() {
-        self.rt_viewDidLoad()
+    @objc fileprivate func pt_viewDidLoad() {
+        pt_viewDidLoad()
         bindingViewModel()
         bindingUI()
     }
 
-    @objc fileprivate func rt_viewWillAppear(_ animated: Bool) {
-        rt_viewWillAppear(animated)
+    @objc fileprivate func pt_viewWillAppear(_ animated: Bool) {
+        pt_viewWillAppear(animated)
         if !hasViewAppeared {
             bindingStyle()
             hasViewAppeared = true
         }
     }
     
-    @objc public func rt_traitCollectionDidChange(_ previousTraitCollection: UITraitCollection) {
-        rt_traitCollectionDidChange(previousTraitCollection)
+    @objc public func pt_viewWillTransition(
+        to size: CGSize,
+        with coordinator: UIViewControllerTransitionCoordinator
+    ) {
+        pt_viewWillTransition(to: size, with: coordinator)
         bindingStyle()
     }
     
