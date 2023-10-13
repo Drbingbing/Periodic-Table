@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		30D7563E2AD8E3230045CDEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D7563D2AD8E3230045CDEE /* AppDelegate.swift */; };
 		30D756402AD8E3230045CDEE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D7563F2AD8E3230045CDEE /* SceneDelegate.swift */; };
-		30D756422AD8E3230045CDEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D756412AD8E3230045CDEE /* ViewController.swift */; };
+		30D756422AD8E3230045CDEE /* RootsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D756412AD8E3230045CDEE /* RootsViewController.swift */; };
 		30D756452AD8E3230045CDEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30D756432AD8E3230045CDEE /* Main.storyboard */; };
 		30D756472AD8E3250045CDEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30D756462AD8E3250045CDEE /* Assets.xcassets */; };
 		30D7564A2AD8E3250045CDEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30D756482AD8E3250045CDEE /* LaunchScreen.storyboard */; };
 		30D756552AD8E3250045CDEE /* PeriodicTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D756542AD8E3250045CDEE /* PeriodicTableTests.swift */; };
 		30D7565F2AD8E3250045CDEE /* PeriodicTableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D7565E2AD8E3250045CDEE /* PeriodicTableUITests.swift */; };
 		30D756612AD8E3250045CDEE /* PeriodicTableUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D756602AD8E3250045CDEE /* PeriodicTableUITestsLaunchTests.swift */; };
-		30D7566F2AD8E3AC0045CDEE /* IGListKit in Frameworks */ = {isa = PBXBuildFile; productRef = 30D7566E2AD8E3AC0045CDEE /* IGListKit */; };
+		30D756732AD8E5810045CDEE /* UIViewController+Swizzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D756722AD8E5810045CDEE /* UIViewController+Swizzle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +40,7 @@
 		30D7563A2AD8E3230045CDEE /* PeriodicTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeriodicTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30D7563D2AD8E3230045CDEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30D7563F2AD8E3230045CDEE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		30D756412AD8E3230045CDEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30D756412AD8E3230045CDEE /* RootsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootsViewController.swift; sourceTree = "<group>"; };
 		30D756442AD8E3230045CDEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30D756462AD8E3250045CDEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30D756492AD8E3250045CDEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,6 +50,7 @@
 		30D7565A2AD8E3250045CDEE /* PeriodicTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeriodicTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30D7565E2AD8E3250045CDEE /* PeriodicTableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicTableUITests.swift; sourceTree = "<group>"; };
 		30D756602AD8E3250045CDEE /* PeriodicTableUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicTableUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		30D756722AD8E5810045CDEE /* UIViewController+Swizzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Swizzle.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +58,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30D7566F2AD8E3AC0045CDEE /* IGListKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,9 +101,10 @@
 		30D7563C2AD8E3230045CDEE /* PeriodicTable */ = {
 			isa = PBXGroup;
 			children = (
+				30D756712AD8E44C0045CDEE /* Shared */,
+				30D756702AD8E41B0045CDEE /* Features */,
 				30D7563D2AD8E3230045CDEE /* AppDelegate.swift */,
 				30D7563F2AD8E3230045CDEE /* SceneDelegate.swift */,
-				30D756412AD8E3230045CDEE /* ViewController.swift */,
 				30D756432AD8E3230045CDEE /* Main.storyboard */,
 				30D756462AD8E3250045CDEE /* Assets.xcassets */,
 				30D756482AD8E3250045CDEE /* LaunchScreen.storyboard */,
@@ -129,6 +130,22 @@
 			path = PeriodicTableUITests;
 			sourceTree = "<group>";
 		};
+		30D756702AD8E41B0045CDEE /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				30D756412AD8E3230045CDEE /* RootsViewController.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		30D756712AD8E44C0045CDEE /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				30D756722AD8E5810045CDEE /* UIViewController+Swizzle.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,7 +163,6 @@
 			);
 			name = PeriodicTable;
 			packageProductDependencies = (
-				30D7566E2AD8E3AC0045CDEE /* IGListKit */,
 			);
 			productName = PeriodicTable;
 			productReference = 30D7563A2AD8E3230045CDEE /* PeriodicTable.app */;
@@ -221,7 +237,6 @@
 			);
 			mainGroup = 30D756312AD8E3230045CDEE;
 			packageReferences = (
-				30D7566D2AD8E3AC0045CDEE /* XCRemoteSwiftPackageReference "IGListKit" */,
 			);
 			productRefGroup = 30D7563B2AD8E3230045CDEE /* Products */;
 			projectDirPath = "";
@@ -266,7 +281,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30D756422AD8E3230045CDEE /* ViewController.swift in Sources */,
+				30D756422AD8E3230045CDEE /* RootsViewController.swift in Sources */,
+				30D756732AD8E5810045CDEE /* UIViewController+Swizzle.swift in Sources */,
 				30D7563E2AD8E3230045CDEE /* AppDelegate.swift in Sources */,
 				30D756402AD8E3230045CDEE /* SceneDelegate.swift in Sources */,
 			);
@@ -615,25 +631,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		30D7566D2AD8E3AC0045CDEE /* XCRemoteSwiftPackageReference "IGListKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Instagram/IGListKit.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		30D7566E2AD8E3AC0045CDEE /* IGListKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 30D7566D2AD8E3AC0045CDEE /* XCRemoteSwiftPackageReference "IGListKit" */;
-			productName = IGListKit;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 30D756322AD8E3230045CDEE /* Project object */;
 }
