@@ -7,68 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		30D7563E2AD8E3230045CDEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D7563D2AD8E3230045CDEE /* AppDelegate.swift */; };
-		30D756402AD8E3230045CDEE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D7563F2AD8E3230045CDEE /* SceneDelegate.swift */; };
-		30D756422AD8E3230045CDEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D756412AD8E3230045CDEE /* ViewController.swift */; };
-		30D756452AD8E3230045CDEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30D756432AD8E3230045CDEE /* Main.storyboard */; };
-		30D756472AD8E3250045CDEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30D756462AD8E3250045CDEE /* Assets.xcassets */; };
-		30D7564A2AD8E3250045CDEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30D756482AD8E3250045CDEE /* LaunchScreen.storyboard */; };
-		30D756552AD8E3250045CDEE /* PeriodicTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D756542AD8E3250045CDEE /* PeriodicTableTests.swift */; };
-		30D7565F2AD8E3250045CDEE /* PeriodicTableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D7565E2AD8E3250045CDEE /* PeriodicTableUITests.swift */; };
-		30D756612AD8E3250045CDEE /* PeriodicTableUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D756602AD8E3250045CDEE /* PeriodicTableUITestsLaunchTests.swift */; };
-		30D7566F2AD8E3AC0045CDEE /* IGListKit in Frameworks */ = {isa = PBXBuildFile; productRef = 30D7566E2AD8E3AC0045CDEE /* IGListKit */; };
+		30D757042AE12CA90045CDEE /* PeriodicTableApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D757032AE12CA90045CDEE /* PeriodicTableApp.swift */; };
+		30D757062AE12CA90045CDEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D757052AE12CA90045CDEE /* ContentView.swift */; };
+		30D757082AE12CAA0045CDEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30D757072AE12CAA0045CDEE /* Assets.xcassets */; };
+		30D7570B2AE12CAA0045CDEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30D7570A2AE12CAA0045CDEE /* Preview Assets.xcassets */; };
+		30D757162AE12CAA0045CDEE /* PeriodicTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D757152AE12CAA0045CDEE /* PeriodicTableTests.swift */; };
+		30D757202AE12CAA0045CDEE /* PeriodicTableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D7571F2AE12CAA0045CDEE /* PeriodicTableUITests.swift */; };
+		30D757222AE12CAA0045CDEE /* PeriodicTableUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D757212AE12CAA0045CDEE /* PeriodicTableUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		30D756512AD8E3250045CDEE /* PBXContainerItemProxy */ = {
+		30D757122AE12CAA0045CDEE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 30D756322AD8E3230045CDEE /* Project object */;
+			containerPortal = 30D756F82AE12CA90045CDEE /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 30D756392AD8E3230045CDEE;
+			remoteGlobalIDString = 30D756FF2AE12CA90045CDEE;
 			remoteInfo = PeriodicTable;
 		};
-		30D7565B2AD8E3250045CDEE /* PBXContainerItemProxy */ = {
+		30D7571C2AE12CAA0045CDEE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 30D756322AD8E3230045CDEE /* Project object */;
+			containerPortal = 30D756F82AE12CA90045CDEE /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 30D756392AD8E3230045CDEE;
+			remoteGlobalIDString = 30D756FF2AE12CA90045CDEE;
 			remoteInfo = PeriodicTable;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		30D7563A2AD8E3230045CDEE /* PeriodicTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeriodicTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		30D7563D2AD8E3230045CDEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		30D7563F2AD8E3230045CDEE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		30D756412AD8E3230045CDEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		30D756442AD8E3230045CDEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		30D756462AD8E3250045CDEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		30D756492AD8E3250045CDEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		30D7564B2AD8E3250045CDEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		30D756502AD8E3250045CDEE /* PeriodicTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeriodicTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		30D756542AD8E3250045CDEE /* PeriodicTableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicTableTests.swift; sourceTree = "<group>"; };
-		30D7565A2AD8E3250045CDEE /* PeriodicTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeriodicTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		30D7565E2AD8E3250045CDEE /* PeriodicTableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicTableUITests.swift; sourceTree = "<group>"; };
-		30D756602AD8E3250045CDEE /* PeriodicTableUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicTableUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		30D757002AE12CA90045CDEE /* PeriodicTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeriodicTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D757032AE12CA90045CDEE /* PeriodicTableApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicTableApp.swift; sourceTree = "<group>"; };
+		30D757052AE12CA90045CDEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		30D757072AE12CAA0045CDEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30D7570A2AE12CAA0045CDEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		30D7570C2AE12CAA0045CDEE /* PeriodicTable.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PeriodicTable.entitlements; sourceTree = "<group>"; };
+		30D757112AE12CAA0045CDEE /* PeriodicTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeriodicTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D757152AE12CAA0045CDEE /* PeriodicTableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicTableTests.swift; sourceTree = "<group>"; };
+		30D7571B2AE12CAA0045CDEE /* PeriodicTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeriodicTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D7571F2AE12CAA0045CDEE /* PeriodicTableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicTableUITests.swift; sourceTree = "<group>"; };
+		30D757212AE12CAA0045CDEE /* PeriodicTableUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicTableUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		30D756372AD8E3230045CDEE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				30D7566F2AD8E3AC0045CDEE /* IGListKit in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		30D7564D2AD8E3250045CDEE /* Frameworks */ = {
+		30D756FD2AE12CA90045CDEE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		30D756572AD8E3250045CDEE /* Frameworks */ = {
+		30D7570E2AE12CAA0045CDEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D757182AE12CAA0045CDEE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,53 +72,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		30D756312AD8E3230045CDEE = {
+		30D756F72AE12CA90045CDEE = {
 			isa = PBXGroup;
 			children = (
-				30D7563C2AD8E3230045CDEE /* PeriodicTable */,
-				30D756532AD8E3250045CDEE /* PeriodicTableTests */,
-				30D7565D2AD8E3250045CDEE /* PeriodicTableUITests */,
-				30D7563B2AD8E3230045CDEE /* Products */,
+				30D757022AE12CA90045CDEE /* PeriodicTable */,
+				30D757142AE12CAA0045CDEE /* PeriodicTableTests */,
+				30D7571E2AE12CAA0045CDEE /* PeriodicTableUITests */,
+				30D757012AE12CA90045CDEE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		30D7563B2AD8E3230045CDEE /* Products */ = {
+		30D757012AE12CA90045CDEE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				30D7563A2AD8E3230045CDEE /* PeriodicTable.app */,
-				30D756502AD8E3250045CDEE /* PeriodicTableTests.xctest */,
-				30D7565A2AD8E3250045CDEE /* PeriodicTableUITests.xctest */,
+				30D757002AE12CA90045CDEE /* PeriodicTable.app */,
+				30D757112AE12CAA0045CDEE /* PeriodicTableTests.xctest */,
+				30D7571B2AE12CAA0045CDEE /* PeriodicTableUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		30D7563C2AD8E3230045CDEE /* PeriodicTable */ = {
+		30D757022AE12CA90045CDEE /* PeriodicTable */ = {
 			isa = PBXGroup;
 			children = (
-				30D7563D2AD8E3230045CDEE /* AppDelegate.swift */,
-				30D7563F2AD8E3230045CDEE /* SceneDelegate.swift */,
-				30D756412AD8E3230045CDEE /* ViewController.swift */,
-				30D756432AD8E3230045CDEE /* Main.storyboard */,
-				30D756462AD8E3250045CDEE /* Assets.xcassets */,
-				30D756482AD8E3250045CDEE /* LaunchScreen.storyboard */,
-				30D7564B2AD8E3250045CDEE /* Info.plist */,
+				30D757032AE12CA90045CDEE /* PeriodicTableApp.swift */,
+				30D757052AE12CA90045CDEE /* ContentView.swift */,
+				30D757072AE12CAA0045CDEE /* Assets.xcassets */,
+				30D7570C2AE12CAA0045CDEE /* PeriodicTable.entitlements */,
+				30D757092AE12CAA0045CDEE /* Preview Content */,
 			);
 			path = PeriodicTable;
 			sourceTree = "<group>";
 		};
-		30D756532AD8E3250045CDEE /* PeriodicTableTests */ = {
+		30D757092AE12CAA0045CDEE /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				30D756542AD8E3250045CDEE /* PeriodicTableTests.swift */,
+				30D7570A2AE12CAA0045CDEE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		30D757142AE12CAA0045CDEE /* PeriodicTableTests */ = {
+			isa = PBXGroup;
+			children = (
+				30D757152AE12CAA0045CDEE /* PeriodicTableTests.swift */,
 			);
 			path = PeriodicTableTests;
 			sourceTree = "<group>";
 		};
-		30D7565D2AD8E3250045CDEE /* PeriodicTableUITests */ = {
+		30D7571E2AE12CAA0045CDEE /* PeriodicTableUITests */ = {
 			isa = PBXGroup;
 			children = (
-				30D7565E2AD8E3250045CDEE /* PeriodicTableUITests.swift */,
-				30D756602AD8E3250045CDEE /* PeriodicTableUITestsLaunchTests.swift */,
+				30D7571F2AE12CAA0045CDEE /* PeriodicTableUITests.swift */,
+				30D757212AE12CAA0045CDEE /* PeriodicTableUITestsLaunchTests.swift */,
 			);
 			path = PeriodicTableUITests;
 			sourceTree = "<group>";
@@ -132,86 +132,83 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		30D756392AD8E3230045CDEE /* PeriodicTable */ = {
+		30D756FF2AE12CA90045CDEE /* PeriodicTable */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 30D756642AD8E3250045CDEE /* Build configuration list for PBXNativeTarget "PeriodicTable" */;
+			buildConfigurationList = 30D757252AE12CAA0045CDEE /* Build configuration list for PBXNativeTarget "PeriodicTable" */;
 			buildPhases = (
-				30D756362AD8E3230045CDEE /* Sources */,
-				30D756372AD8E3230045CDEE /* Frameworks */,
-				30D756382AD8E3230045CDEE /* Resources */,
+				30D756FC2AE12CA90045CDEE /* Sources */,
+				30D756FD2AE12CA90045CDEE /* Frameworks */,
+				30D756FE2AE12CA90045CDEE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = PeriodicTable;
-			packageProductDependencies = (
-				30D7566E2AD8E3AC0045CDEE /* IGListKit */,
-			);
 			productName = PeriodicTable;
-			productReference = 30D7563A2AD8E3230045CDEE /* PeriodicTable.app */;
+			productReference = 30D757002AE12CA90045CDEE /* PeriodicTable.app */;
 			productType = "com.apple.product-type.application";
 		};
-		30D7564F2AD8E3250045CDEE /* PeriodicTableTests */ = {
+		30D757102AE12CAA0045CDEE /* PeriodicTableTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 30D756672AD8E3250045CDEE /* Build configuration list for PBXNativeTarget "PeriodicTableTests" */;
+			buildConfigurationList = 30D757282AE12CAA0045CDEE /* Build configuration list for PBXNativeTarget "PeriodicTableTests" */;
 			buildPhases = (
-				30D7564C2AD8E3250045CDEE /* Sources */,
-				30D7564D2AD8E3250045CDEE /* Frameworks */,
-				30D7564E2AD8E3250045CDEE /* Resources */,
+				30D7570D2AE12CAA0045CDEE /* Sources */,
+				30D7570E2AE12CAA0045CDEE /* Frameworks */,
+				30D7570F2AE12CAA0045CDEE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				30D756522AD8E3250045CDEE /* PBXTargetDependency */,
+				30D757132AE12CAA0045CDEE /* PBXTargetDependency */,
 			);
 			name = PeriodicTableTests;
 			productName = PeriodicTableTests;
-			productReference = 30D756502AD8E3250045CDEE /* PeriodicTableTests.xctest */;
+			productReference = 30D757112AE12CAA0045CDEE /* PeriodicTableTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		30D756592AD8E3250045CDEE /* PeriodicTableUITests */ = {
+		30D7571A2AE12CAA0045CDEE /* PeriodicTableUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 30D7566A2AD8E3250045CDEE /* Build configuration list for PBXNativeTarget "PeriodicTableUITests" */;
+			buildConfigurationList = 30D7572B2AE12CAA0045CDEE /* Build configuration list for PBXNativeTarget "PeriodicTableUITests" */;
 			buildPhases = (
-				30D756562AD8E3250045CDEE /* Sources */,
-				30D756572AD8E3250045CDEE /* Frameworks */,
-				30D756582AD8E3250045CDEE /* Resources */,
+				30D757172AE12CAA0045CDEE /* Sources */,
+				30D757182AE12CAA0045CDEE /* Frameworks */,
+				30D757192AE12CAA0045CDEE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				30D7565C2AD8E3250045CDEE /* PBXTargetDependency */,
+				30D7571D2AE12CAA0045CDEE /* PBXTargetDependency */,
 			);
 			name = PeriodicTableUITests;
 			productName = PeriodicTableUITests;
-			productReference = 30D7565A2AD8E3250045CDEE /* PeriodicTableUITests.xctest */;
+			productReference = 30D7571B2AE12CAA0045CDEE /* PeriodicTableUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		30D756322AD8E3230045CDEE /* Project object */ = {
+		30D756F82AE12CA90045CDEE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					30D756392AD8E3230045CDEE = {
+					30D756FF2AE12CA90045CDEE = {
 						CreatedOnToolsVersion = 15.0;
 					};
-					30D7564F2AD8E3250045CDEE = {
+					30D757102AE12CAA0045CDEE = {
 						CreatedOnToolsVersion = 15.0;
-						TestTargetID = 30D756392AD8E3230045CDEE;
+						TestTargetID = 30D756FF2AE12CA90045CDEE;
 					};
-					30D756592AD8E3250045CDEE = {
+					30D7571A2AE12CAA0045CDEE = {
 						CreatedOnToolsVersion = 15.0;
-						TestTargetID = 30D756392AD8E3230045CDEE;
+						TestTargetID = 30D756FF2AE12CA90045CDEE;
 					};
 				};
 			};
-			buildConfigurationList = 30D756352AD8E3230045CDEE /* Build configuration list for PBXProject "PeriodicTable" */;
+			buildConfigurationList = 30D756FB2AE12CA90045CDEE /* Build configuration list for PBXProject "PeriodicTable" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,40 +216,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 30D756312AD8E3230045CDEE;
-			packageReferences = (
-				30D7566D2AD8E3AC0045CDEE /* XCRemoteSwiftPackageReference "IGListKit" */,
-			);
-			productRefGroup = 30D7563B2AD8E3230045CDEE /* Products */;
+			mainGroup = 30D756F72AE12CA90045CDEE;
+			productRefGroup = 30D757012AE12CA90045CDEE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				30D756392AD8E3230045CDEE /* PeriodicTable */,
-				30D7564F2AD8E3250045CDEE /* PeriodicTableTests */,
-				30D756592AD8E3250045CDEE /* PeriodicTableUITests */,
+				30D756FF2AE12CA90045CDEE /* PeriodicTable */,
+				30D757102AE12CAA0045CDEE /* PeriodicTableTests */,
+				30D7571A2AE12CAA0045CDEE /* PeriodicTableUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		30D756382AD8E3230045CDEE /* Resources */ = {
+		30D756FE2AE12CA90045CDEE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30D7564A2AD8E3250045CDEE /* LaunchScreen.storyboard in Resources */,
-				30D756472AD8E3250045CDEE /* Assets.xcassets in Resources */,
-				30D756452AD8E3230045CDEE /* Main.storyboard in Resources */,
+				30D7570B2AE12CAA0045CDEE /* Preview Assets.xcassets in Resources */,
+				30D757082AE12CAA0045CDEE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		30D7564E2AD8E3250045CDEE /* Resources */ = {
+		30D7570F2AE12CAA0045CDEE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		30D756582AD8E3250045CDEE /* Resources */ = {
+		30D757192AE12CAA0045CDEE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -262,69 +255,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		30D756362AD8E3230045CDEE /* Sources */ = {
+		30D756FC2AE12CA90045CDEE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30D756422AD8E3230045CDEE /* ViewController.swift in Sources */,
-				30D7563E2AD8E3230045CDEE /* AppDelegate.swift in Sources */,
-				30D756402AD8E3230045CDEE /* SceneDelegate.swift in Sources */,
+				30D757062AE12CA90045CDEE /* ContentView.swift in Sources */,
+				30D757042AE12CA90045CDEE /* PeriodicTableApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		30D7564C2AD8E3250045CDEE /* Sources */ = {
+		30D7570D2AE12CAA0045CDEE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30D756552AD8E3250045CDEE /* PeriodicTableTests.swift in Sources */,
+				30D757162AE12CAA0045CDEE /* PeriodicTableTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		30D756562AD8E3250045CDEE /* Sources */ = {
+		30D757172AE12CAA0045CDEE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30D756612AD8E3250045CDEE /* PeriodicTableUITestsLaunchTests.swift in Sources */,
-				30D7565F2AD8E3250045CDEE /* PeriodicTableUITests.swift in Sources */,
+				30D757222AE12CAA0045CDEE /* PeriodicTableUITestsLaunchTests.swift in Sources */,
+				30D757202AE12CAA0045CDEE /* PeriodicTableUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		30D756522AD8E3250045CDEE /* PBXTargetDependency */ = {
+		30D757132AE12CAA0045CDEE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 30D756392AD8E3230045CDEE /* PeriodicTable */;
-			targetProxy = 30D756512AD8E3250045CDEE /* PBXContainerItemProxy */;
+			target = 30D756FF2AE12CA90045CDEE /* PeriodicTable */;
+			targetProxy = 30D757122AE12CAA0045CDEE /* PBXContainerItemProxy */;
 		};
-		30D7565C2AD8E3250045CDEE /* PBXTargetDependency */ = {
+		30D7571D2AE12CAA0045CDEE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 30D756392AD8E3230045CDEE /* PeriodicTable */;
-			targetProxy = 30D7565B2AD8E3250045CDEE /* PBXContainerItemProxy */;
+			target = 30D756FF2AE12CA90045CDEE /* PeriodicTable */;
+			targetProxy = 30D7571C2AE12CAA0045CDEE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		30D756432AD8E3230045CDEE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				30D756442AD8E3230045CDEE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		30D756482AD8E3250045CDEE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				30D756492AD8E3250045CDEE /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		30D756622AD8E3250045CDEE /* Debug */ = {
+		30D757232AE12CAA0045CDEE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -376,18 +349,18 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		30D756632AD8E3250045CDEE /* Release */ = {
+		30D757242AE12CAA0045CDEE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -433,73 +406,70 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		30D756652AD8E3250045CDEE /* Debug */ = {
+		30D757262AE12CAA0045CDEE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PeriodicTable/PeriodicTable.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PeriodicTable/Preview Content\"";
 				DEVELOPMENT_TEAM = 6GH2ZWT255;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PeriodicTable/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = bingbing.PeriodicTable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		30D756662AD8E3250045CDEE /* Release */ = {
+		30D757272AE12CAA0045CDEE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PeriodicTable/PeriodicTable.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PeriodicTable/Preview Content\"";
 				DEVELOPMENT_TEAM = 6GH2ZWT255;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PeriodicTable/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = bingbing.PeriodicTable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		30D756682AD8E3250045CDEE /* Debug */ = {
+		30D757292AE12CAA0045CDEE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -508,18 +478,17 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6GH2ZWT255;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = bingbing.PeriodicTableTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PeriodicTable.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PeriodicTable";
 			};
 			name = Debug;
 		};
-		30D756692AD8E3250045CDEE /* Release */ = {
+		30D7572A2AE12CAA0045CDEE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -528,18 +497,17 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6GH2ZWT255;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = bingbing.PeriodicTableTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PeriodicTable.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PeriodicTable";
 			};
 			name = Release;
 		};
-		30D7566B2AD8E3250045CDEE /* Debug */ = {
+		30D7572C2AE12CAA0045CDEE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -552,12 +520,11 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = PeriodicTable;
 			};
 			name = Debug;
 		};
-		30D7566C2AD8E3250045CDEE /* Release */ = {
+		30D7572D2AE12CAA0045CDEE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -570,7 +537,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = PeriodicTable;
 			};
 			name = Release;
@@ -578,62 +544,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		30D756352AD8E3230045CDEE /* Build configuration list for PBXProject "PeriodicTable" */ = {
+		30D756FB2AE12CA90045CDEE /* Build configuration list for PBXProject "PeriodicTable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				30D756622AD8E3250045CDEE /* Debug */,
-				30D756632AD8E3250045CDEE /* Release */,
+				30D757232AE12CAA0045CDEE /* Debug */,
+				30D757242AE12CAA0045CDEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		30D756642AD8E3250045CDEE /* Build configuration list for PBXNativeTarget "PeriodicTable" */ = {
+		30D757252AE12CAA0045CDEE /* Build configuration list for PBXNativeTarget "PeriodicTable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				30D756652AD8E3250045CDEE /* Debug */,
-				30D756662AD8E3250045CDEE /* Release */,
+				30D757262AE12CAA0045CDEE /* Debug */,
+				30D757272AE12CAA0045CDEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		30D756672AD8E3250045CDEE /* Build configuration list for PBXNativeTarget "PeriodicTableTests" */ = {
+		30D757282AE12CAA0045CDEE /* Build configuration list for PBXNativeTarget "PeriodicTableTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				30D756682AD8E3250045CDEE /* Debug */,
-				30D756692AD8E3250045CDEE /* Release */,
+				30D757292AE12CAA0045CDEE /* Debug */,
+				30D7572A2AE12CAA0045CDEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		30D7566A2AD8E3250045CDEE /* Build configuration list for PBXNativeTarget "PeriodicTableUITests" */ = {
+		30D7572B2AE12CAA0045CDEE /* Build configuration list for PBXNativeTarget "PeriodicTableUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				30D7566B2AD8E3250045CDEE /* Debug */,
-				30D7566C2AD8E3250045CDEE /* Release */,
+				30D7572C2AE12CAA0045CDEE /* Debug */,
+				30D7572D2AE12CAA0045CDEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		30D7566D2AD8E3AC0045CDEE /* XCRemoteSwiftPackageReference "IGListKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Instagram/IGListKit.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		30D7566E2AD8E3AC0045CDEE /* IGListKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 30D7566D2AD8E3AC0045CDEE /* XCRemoteSwiftPackageReference "IGListKit" */;
-			productName = IGListKit;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 30D756322AD8E3230045CDEE /* Project object */;
+	rootObject = 30D756F82AE12CA90045CDEE /* Project object */;
 }
