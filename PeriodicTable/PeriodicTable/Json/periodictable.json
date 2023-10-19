@@ -1,0 +1,948 @@
+{
+    "elements": [
+        {
+            "atomic_number": 1,
+            "name": "氫",
+            "symbol": "H",
+            "group": 1,
+            "period": 1,
+            "category": "非金屬"
+        },
+        {
+            "atomic_number": 2,
+            "name": "氦",
+            "symbol": "He",
+            "group": 18,
+            "period": 1,
+            "category": "惰性氣體"
+        },
+        {
+            "atomic_number": 3,
+            "name": "鋰",
+            "symbol": "Li",
+            "group": 1,
+            "period": 2,
+            "category": "鹼金屬"
+        },
+        {
+            "atomic_number": 4,
+            "name": "鈹",
+            "symbol": "Be",
+            "group": 2,
+            "period": 2,
+            "category": "鹼土金屬"
+        },
+        {
+            "atomic_number": 5,
+            "name": "硼",
+            "symbol": "B",
+            "group": 13,
+            "period": 2,
+            "category": "類金屬"
+        },
+        {
+            "atomic_number": 6,
+            "name": "碳",
+            "symbol": "C",
+            "group": 14,
+            "period": 2,
+            "category": "非金屬"
+        },
+        {
+            "atomic_number": 7,
+            "name": "氮",
+            "symbol": "N",
+            "group": 15,
+            "period": 2,
+            "category": "非金屬"
+        },
+        {
+            "atomic_number": 8,
+            "name": "氧",
+            "symbol": "O",
+            "group": 16,
+            "period": 2,
+            "category": "非金屬"
+        },
+        {
+            "atomic_number": 9,
+            "name": "氟",
+            "symbol": "F",
+            "group": 17,
+            "period": 2,
+            "category": "鹵素"
+        },
+        {
+            "atomic_number": 10,
+            "name": "氖",
+            "symbol": "Ne",
+            "group": 18,
+            "period": 2,
+            "category": "惰性氣體"
+        },
+        {
+            "atomic_number": 11,
+            "name": "鈉",
+            "symbol": "Na",
+            "group": 1,
+            "period": 3,
+            "category": "鹼金屬"
+        },
+        {
+            "atomic_number": 12,
+            "name": "鎂",
+            "symbol": "Mg",
+            "group": 2,
+            "period": 3,
+            "category": "鹼土金屬"
+        },
+        {
+            "atomic_number": 13,
+            "name": "鋁",
+            "symbol": "Al",
+            "group": 13,
+            "period": 3,
+            "category": "貧金屬"
+        },
+        {
+            "atomic_number": 14,
+            "name": "矽",
+            "symbol": "Si",
+            "group": 14,
+            "period": 3,
+            "category": "類金屬"
+        },
+        {
+            "atomic_number": 15,
+            "name": "磷",
+            "symbol": "P",
+            "group": 15,
+            "period": 3,
+            "category": "非金屬"
+        },
+        {
+            "atomic_number": 16,
+            "name": "硫",
+            "symbol": "S",
+            "group": 16,
+            "period": 3,
+            "category": "非金屬"
+        },
+        {
+            "atomic_number": 17,
+            "name": "氯",
+            "symbol": "Cl",
+            "group": 17,
+            "period": 3,
+            "category": "鹵素"
+        },
+        {
+            "atomic_number": 18,
+            "name": "氬",
+            "symbol": "Ar",
+            "group": 18,
+            "period": 3,
+            "category": "惰性氣體"
+        },
+        {
+            "atomic_number": 19,
+            "name": "鉀",
+            "symbol": "K",
+            "group": 1,
+            "period": 4,
+            "category": "鹼金屬"
+        },
+        {
+            "atomic_number": 20,
+            "name": "鈣",
+            "symbol": "Ca",
+            "group": 2,
+            "period": 4,
+            "category": "鹼土金屬"
+        },
+        {
+            "atomic_number": 21,
+            "name": "鈧",
+            "symbol": "Sc",
+            "group": 3,
+            "period": 4,
+            "category": "過渡金屬"
+        },
+        {
+            "atomic_number": 22,
+            "name": "鈦",
+            "symbol": "Ti",
+            "group": 4,
+            "period": 4,
+            "category": "過渡金屬"
+        },
+        {
+            "atomic_number": 23,
+            "name": "釩",
+            "symbol": "V",
+            "group": 5,
+            "period": 4,
+            "category": "過渡金屬"
+        },
+        {
+            "atomic_number": 24,
+            "name": "鉻",
+            "symbol": "Cr",
+            "group": 6,
+            "period": 4,
+            "category": "過渡金屬"
+        },
+        {
+            "atomic_number": 25,
+            "name": "錳",
+            "symbol": "Mn",
+            "group": 7,
+            "period": 4,
+            "category": "過渡金屬"
+        },
+        {
+            "atomic_number": 26,
+            "name": "鐵",
+            "symbol": "Fe",
+            "group": 8,
+            "period": 4,
+            "category": "過渡金屬"
+        },
+        {
+            "atomic_number": 27,
+            "name": "鈷",
+            "symbol": "Ne",
+            "group": 9,
+            "period": 4,
+            "category": "過渡金屬"
+        },
+        {
+            "atomic_number": 28,
+            "name": "鎳",
+            "symbol": "Ni",
+            "group": 10,
+            "period": 4,
+            "category": "過渡金屬"
+        },
+        {
+            "atomic_number": 29,
+            "name": "銅",
+            "symbol": "Cu",
+            "group": 11,
+            "period": 4,
+            "category": "過渡金屬"
+        },
+        {
+            "atomic_number": 30,
+            "name": "鋅",
+            "symbol": "Zn",
+            "group": 12,
+            "period": 4,
+            "category": "過渡金屬"
+        },
+        {
+            "atomic_number": 31,
+            "name": "鎵",
+            "symbol": "Ga",
+            "group": 13,
+            "period": 4,
+            "category": "貧金屬"
+        },
+        {
+            "atomic_number": 32,
+            "name": "鍺",
+            "symbol": "Ge",
+            "group": 14,
+            "period": 4,
+            "category": "類金屬"
+        },
+        {
+            "atomic_number": 33,
+            "name": "砷",
+            "symbol": "As",
+            "group": 15,
+            "period": 4,
+            "category": "類金屬"
+        },
+        {
+            "atomic_number": 34,
+            "name": "硒",
+            "symbol": "Se",
+            "group": 16,
+            "period": 4,
+            "category": "非金屬"
+        },
+        {
+            "atomic_number": 35,
+            "name": "溴",
+            "symbol": "Br",
+            "group": 17,
+            "period": 4,
+            "category": "鹵素"
+        },
+        {
+            "atomic_number": 36,
+            "name": "氪",
+            "symbol": "Kr",
+            "group": 18,
+            "period": 5,
+            "category": "惰性氣體"
+        },
+        {
+            "atomic_number": 37,
+            "name": "銣",
+            "symbol": "Rb",
+            "group": 1,
+            "period": 5,
+            "category": "鹼金屬"
+        },
+        {
+            "atomic_number": 38,
+            "name": "鍶",
+            "symbol": "Sr",
+            "group": 2,
+            "period": 5,
+            "category": "鹼土金屬"
+        },
+        {
+            "atomic_number": 39,
+            "name": "釔",
+            "symbol": "Y",
+            "group": 3,
+            "period": 5,
+            "category": "過渡金屬"
+        },
+        {
+            "atomic_number": 40,
+            "name": "鋯",
+            "symbol": "Zr",
+            "group": 4,
+            "period": 5,
+            "category": "過渡金屬"
+        },
+        {
+            "atomic_number": 41,
+            "name": "鈮",
+            "symbol": "Nb",
+            "group": 5,
+            "period": 5,
+            "category": "過渡金屬"
+        },
+        {
+            "atomic_number": 42,
+            "name": "鉬",
+            "symbol": "Mo",
+            "group": 6,
+            "period": 5,
+            "category": "過渡金屬"
+        },
+        {
+            "atomic_number": 43,
+            "name": "鎝",
+            "symbol": "Tc",
+            "group": 7,
+            "period": 5,
+            "category": "過渡金屬"
+        },
+        {
+            "atomic_number": 44,
+            "name": "釕",
+            "symbol": "Ru",
+            "group": 8,
+            "period": 5,
+            "category": "過渡金屬"
+        },
+        {
+            "atomic_number": 45,
+            "name": "銠",
+            "symbol": "Rh",
+            "group": 9,
+            "period": 5,
+            "category": "過渡金屬"
+        },
+        {
+            "atomic_number": 46,
+            "name": "鈀",
+            "symbol": "Pd",
+            "group": 10,
+            "period": 5,
+            "category": "過渡金屬"
+        },
+        {
+            "atomic_number": 47,
+            "name": "銀",
+            "symbol": "Ag",
+            "group": 11,
+            "period": 5,
+            "category": "過渡金屬"
+        },
+        {
+            "atomic_number": 48,
+            "name": "鎘",
+            "symbol": "Cd",
+            "group": 12,
+            "period": 5,
+            "category": "過渡金屬"
+        },
+        {
+            "atomic_number": 49,
+            "name": "銦",
+            "symbol": "In",
+            "group": 13,
+            "period": 5,
+            "category": "貧金屬"
+        },
+        {
+            "atomic_number": 50,
+            "name": "錫",
+            "symbol": "Sn",
+            "group": 14,
+            "period": 5,
+            "category": "貧金屬"
+        },
+        {
+            "atomic_number": 51,
+            "name": "銻",
+            "symbol": "Sb",
+            "group": 15,
+            "period": 5,
+            "category": "類金屬"
+        },
+        {
+            "atomic_number": 52,
+            "name": "碲",
+            "symbol": "Te",
+            "group": 16,
+            "period": 5,
+            "category": "類金屬"
+        },
+        {
+            "atomic_number": 53,
+            "name": "碘",
+            "symbol": "I",
+            "group": 17,
+            "period": 5,
+            "category": "鹵素"
+        },
+        {
+            "atomic_number": 54,
+            "name": "氙",
+            "symbol": "Xe",
+            "group": 18,
+            "period": 6,
+            "category": "惰性氣體"
+        },
+        {
+            "atomic_number": 55,
+            "name": "銫",
+            "symbol": "Cs",
+            "group": 1,
+            "period": 6,
+            "category": "鹼金屬"
+        },
+        {
+            "atomic_number": 56,
+            "name": "鋇",
+            "symbol": "Ba",
+            "group": 2,
+            "period": 6,
+            "category": "鹼土金屬"
+        },
+        {
+            "atomic_number": 57,
+            "name": "鑭",
+            "symbol": "La",
+            "group": 3,
+            "period": 6,
+            "category": "鑭系元素"
+        },
+        {
+            "atomic_number": 58,
+            "name": "鈰",
+            "symbol": "Ce",
+            "group": 3,
+            "period": 6,
+            "category": "鑭系元素"
+        },
+        {
+            "atomic_number": 59,
+            "name": "鐠",
+            "symbol": "Pr",
+            "group": 3,
+            "period": 6,
+            "category": "鑭系元素"
+        },
+        {
+            "atomic_number": 60,
+            "name": "釹",
+            "symbol": "Nd",
+            "group": 3,
+            "period": 6,
+            "category": "鑭系元素"
+        },
+        {
+            "atomic_number": 61,
+            "name": "鉕",
+            "symbol": "Pm",
+            "group": 3,
+            "period": 6,
+            "category": "鑭系元素"
+        },
+        {
+            "atomic_number": 62,
+            "name": "釤",
+            "symbol": "Sm",
+            "group": 3,
+            "period": 6,
+            "category": "鑭系元素"
+        },
+        {
+            "atomic_number": 63,
+            "name": "銪",
+            "symbol": "Eu",
+            "group": 3,
+            "period": 6,
+            "category": "鑭系元素"
+        },
+        {
+            "atomic_number": 64,
+            "name": "釓",
+            "symbol": "Gd",
+            "group": 3,
+            "period": 6,
+            "category": "鑭系元素"
+        },
+        {
+            "atomic_number": 65,
+            "name": "鋱",
+            "symbol": "Tb",
+            "group": 3,
+            "period": 6,
+            "category": "鑭系元素"
+        },
+        {
+            "atomic_number": 66,
+            "name": "鏑",
+            "symbol": "Dy",
+            "group": 3,
+            "period": 6,
+            "category": "鑭系元素"
+        },
+        {
+            "atomic_number": 67,
+            "name": "鈥",
+            "symbol": "Ho",
+            "group": 3,
+            "period": 6,
+            "category": "鑭系元素"
+        },
+        {
+            "atomic_number": 68,
+            "name": "鉺",
+            "symbol": "Er",
+            "group": 3,
+            "period": 6,
+            "category": "鑭系元素"
+        },
+        {
+            "atomic_number": 69,
+            "name": "銩",
+            "symbol": "Tm",
+            "group": 3,
+            "period": 6,
+            "category": "鑭系元素"
+        },
+        {
+            "atomic_number": 70,
+            "name": "鐿",
+            "symbol": "Yb",
+            "group": 3,
+            "period": 6,
+            "category": "鑭系元素"
+        },
+        {
+            "atomic_number": 71,
+            "name": "鎦",
+            "symbol": "Lu",
+            "group": 3,
+            "period": 6,
+            "category": "鑭系元素"
+        },
+        {
+            "atomic_number": 72,
+            "name": "鉿",
+            "symbol": "Hf",
+            "group": 4,
+            "period": 6,
+            "category": "過渡金屬"
+        },
+        {
+            "atomic_number": 73,
+            "name": "鉭",
+            "symbol": "Ta",
+            "group": 5,
+            "period": 6,
+            "category": "過渡金屬"
+        },
+        {
+            "atomic_number": 74,
+            "name": "鎢",
+            "symbol": "W",
+            "group": 6,
+            "period": 6,
+            "category": "過渡金屬"
+        },
+        {
+            "atomic_number": 75,
+            "name": "錸",
+            "symbol": "Re",
+            "group": 7,
+            "period": 6,
+            "category": "過渡金屬"
+        },
+        {
+            "atomic_number": 76,
+            "name": "鋨",
+            "symbol": "Os",
+            "group": 8,
+            "period": 6,
+            "category": "過渡金屬"
+        },
+        {
+            "atomic_number": 77,
+            "name": "銥",
+            "symbol": "Ir",
+            "group": 9,
+            "period": 6,
+            "category": "過渡金屬"
+        },
+        {
+            "atomic_number": 78,
+            "name": "鉑",
+            "symbol": "Pt",
+            "group": 10,
+            "period": 6,
+            "category": "過渡金屬"
+        },
+        {
+            "atomic_number": 79,
+            "name": "金",
+            "symbol": "Au",
+            "group": 11,
+            "period": 6,
+            "category": "過渡金屬"
+        },
+        {
+            "atomic_number": 80,
+            "name": "汞",
+            "symbol": "Hg",
+            "group": 12,
+            "period": 6,
+            "category": "過渡金屬"
+        },
+        {
+            "atomic_number": 81,
+            "name": "鉈",
+            "symbol": "Tl",
+            "group": 13,
+            "period": 6,
+            "category": "貧金屬"
+        },
+        {
+            "atomic_number": 82,
+            "name": "鉛",
+            "symbol": "Pb",
+            "group": 14,
+            "period": 6,
+            "category": "貧金屬"
+        },
+        {
+            "atomic_number": 83,
+            "name": "鉍",
+            "symbol": "Bi",
+            "group": 15,
+            "period": 6,
+            "category": "貧金屬"
+        },
+        {
+            "atomic_number": 84,
+            "name": "釙",
+            "symbol": "Po",
+            "group": 16,
+            "period": 6,
+            "category": "貧金屬"
+        },
+        {
+            "atomic_number": 85,
+            "name": "砈",
+            "symbol": "At",
+            "group": 17,
+            "period": 6,
+            "category": "鹵素"
+        },
+        {
+            "atomic_number": 86,
+            "name": "氡",
+            "symbol": "Rn",
+            "group": 18,
+            "period": 6,
+            "category": "惰性氣體"
+        },
+        {
+            "atomic_number": 87,
+            "name": "鍅",
+            "symbol": "Fr",
+            "group": 1,
+            "period": 7,
+            "category": "鹼金屬"
+        },
+        {
+            "atomic_number": 88,
+            "name": "鐳",
+            "symbol": "Ra",
+            "group": 2,
+            "period": 7,
+            "category": "鹼土金屬"
+        },
+        {
+            "atomic_number": 89,
+            "name": "錒",
+            "symbol": "Ac",
+            "group": 3,
+            "period": 7,
+            "category": "錒系元素"
+        },
+        {
+            "atomic_number": 90,
+            "name": "釷",
+            "symbol": "Th",
+            "group": 3,
+            "period": 7,
+            "category": "錒系元素"
+        },
+        {
+            "atomic_number": 91,
+            "name": "鏷",
+            "symbol": "Rn",
+            "group": 3,
+            "period": 7,
+            "category": "錒系元素"
+        },
+        {
+            "atomic_number": 92,
+            "name": "鈾",
+            "symbol": "U",
+            "group": 3,
+            "period": 7,
+            "category": "錒系元素"
+        },
+        {
+            "atomic_number": 93,
+            "name": "錼",
+            "symbol": "Np",
+            "group": 3,
+            "period": 7,
+            "category": "錒系元素"
+        },
+        {
+            "atomic_number": 94,
+            "name": "鈽",
+            "symbol": "Pu",
+            "group": 3,
+            "period": 7,
+            "category": "錒系元素"
+        },
+        {
+            "atomic_number": 95,
+            "name": "鋂",
+            "symbol": "Am",
+            "group": 3,
+            "period": 7,
+            "category": "錒系元素"
+        },
+        {
+            "atomic_number": 96,
+            "name": "鋦",
+            "symbol": "Cm",
+            "group": 3,
+            "period": 7,
+            "category": "錒系元素"
+        },
+        {
+            "atomic_number": 97,
+            "name": "鉳",
+            "symbol": "Bk",
+            "group": 3,
+            "period": 7,
+            "category": "錒系元素"
+        },
+        {
+            "atomic_number": 98,
+            "name": "鉲",
+            "symbol": "Cf",
+            "group": 3,
+            "period": 7,
+            "category": "錒系元素"
+        },
+        {
+            "atomic_number": 99,
+            "name": "鑀",
+            "symbol": "Es",
+            "group": 3,
+            "period": 7,
+            "category": "錒系元素"
+        },
+        {
+            "atomic_number": 100,
+            "name": "鐨",
+            "symbol": "Fm",
+            "group": 3,
+            "period": 7,
+            "category": "錒系元素"
+        },
+        {
+            "atomic_number": 101,
+            "name": "鍆",
+            "symbol": "Md",
+            "group": 3,
+            "period": 7,
+            "category": "錒系元素"
+        },
+        {
+            "atomic_number": 102,
+            "name": "鍩",
+            "symbol": "No",
+            "group": 3,
+            "period": 7,
+            "category": "錒系元素"
+        },
+        {
+            "atomic_number": 103,
+            "name": "鐒",
+            "symbol": "Lr",
+            "group": 3,
+            "period": 7,
+            "category": "錒系元素"
+        },
+        {
+            "atomic_number": 104,
+            "name": "鑪",
+            "symbol": "Rf",
+            "group": 4,
+            "period": 7,
+            "category": "過渡金屬"
+        },
+        {
+            "atomic_number": 105,
+            "name": "𨧀",
+            "symbol": "Db",
+            "group": 5,
+            "period": 7,
+            "category": "過渡金屬"
+        },
+        {
+            "atomic_number": 106,
+            "name": "𨭎",
+            "symbol": "Sg",
+            "group": 6,
+            "period": 7,
+            "category": "過渡金屬"
+        },
+        {
+            "atomic_number": 107,
+            "name": "𨨏",
+            "symbol": "Bh",
+            "group": 7,
+            "period": 7,
+            "category": "過渡金屬"
+        },
+        {
+            "atomic_number": 108,
+            "name": "𨭆",
+            "symbol": "Hs",
+            "group": 8,
+            "period": 7,
+            "category": "過渡金屬"
+        },
+        {
+            "atomic_number": 109,
+            "name": "䥑",
+            "symbol": "Mt",
+            "group": 9,
+            "period": 7,
+            "category": "過渡金屬"
+        },
+        {
+            "atomic_number": 110,
+            "name": "鐽",
+            "symbol": "Ds",
+            "group": 10,
+            "period": 7,
+            "category": "過渡金屬"
+        },
+        {
+            "atomic_number": 111,
+            "name": "錀",
+            "symbol": "Rg",
+            "group": 11,
+            "period": 7,
+            "category": "過渡金屬"
+        },
+        {
+            "atomic_number": 112,
+            "name": "鎶",
+            "symbol": "Cn",
+            "group": 12,
+            "period": 7,
+            "category": "過渡金屬"
+        },
+        {
+            "atomic_number": 113,
+            "name": "鉨",
+            "symbol": "Nh",
+            "group": 13,
+            "period": 7,
+            "category": "未知"
+        },
+        {
+            "atomic_number": 114,
+            "name": "鈇",
+            "symbol": "Fl",
+            "group": 14,
+            "period": 7,
+            "category": "貧金屬"
+        },
+        {
+            "atomic_number": 115,
+            "name": "鏌",
+            "symbol": "Mc",
+            "group": 15,
+            "period": 7,
+            "category": "未知"
+        },
+        {
+            "atomic_number": 116,
+            "name": "鉝",
+            "symbol": "Lv",
+            "group": 16,
+            "period": 7,
+            "category": "未知"
+        },
+        {
+            "atomic_number": 117,
+            "name": "鿬",
+            "symbol": "Ts",
+            "group": 17,
+            "period": 7,
+            "category": "未知"
+        },
+        {
+            "atomic_number": 118,
+            "name": "鿫",
+            "symbol": "Og",
+            "group": 18,
+            "period": 7,
+            "category": "未知"
+        }
+    ]
+}

@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		30D7563E2AD8E3230045CDEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D7563D2AD8E3230045CDEE /* AppDelegate.swift */; };
 		30D756402AD8E3230045CDEE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D7563F2AD8E3230045CDEE /* SceneDelegate.swift */; };
-		30D756422AD8E3230045CDEE /* RootsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D756412AD8E3230045CDEE /* RootsViewController.swift */; };
+		30D756422AD8E3230045CDEE /* PeriodicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D756412AD8E3230045CDEE /* PeriodicTableViewController.swift */; };
 		30D756452AD8E3230045CDEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30D756432AD8E3230045CDEE /* Main.storyboard */; };
 		30D756472AD8E3250045CDEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30D756462AD8E3250045CDEE /* Assets.xcassets */; };
 		30D7564A2AD8E3250045CDEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30D756482AD8E3250045CDEE /* LaunchScreen.storyboard */; };
@@ -17,6 +17,40 @@
 		30D7565F2AD8E3250045CDEE /* PeriodicTableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D7565E2AD8E3250045CDEE /* PeriodicTableUITests.swift */; };
 		30D756612AD8E3250045CDEE /* PeriodicTableUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D756602AD8E3250045CDEE /* PeriodicTableUITestsLaunchTests.swift */; };
 		30D756732AD8E5810045CDEE /* UIViewController+Swizzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D756722AD8E5810045CDEE /* UIViewController+Swizzle.swift */; };
+		30D756A12AD93B9E0045CDEE /* IGListDiffKit in Frameworks */ = {isa = PBXBuildFile; productRef = 30D756A02AD93B9E0045CDEE /* IGListDiffKit */; };
+		30D756A32AD93B9E0045CDEE /* IGListKit in Frameworks */ = {isa = PBXBuildFile; productRef = 30D756A22AD93B9E0045CDEE /* IGListKit */; };
+		30D756A52AD93B9E0045CDEE /* IGListSwiftKit in Frameworks */ = {isa = PBXBuildFile; productRef = 30D756A42AD93B9E0045CDEE /* IGListSwiftKit */; };
+		30D756AA2AD93FB90045CDEE /* ChemicalElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D756A92AD93FB90045CDEE /* ChemicalElement.swift */; };
+		30D756AD2AD942760045CDEE /* PeriodicTableSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D756AC2AD942760045CDEE /* PeriodicTableSectionController.swift */; };
+		30D756B22AD943790045CDEE /* ChemicalElementCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D756B12AD943790045CDEE /* ChemicalElementCell.swift */; };
+		30D756B52AD94B0B0045CDEE /* ChemicalElementViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D756B42AD94B0B0045CDEE /* ChemicalElementViewModel.swift */; };
+		30D756B82AD94C160045CDEE /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 30D756B72AD94C160045CDEE /* SnapKit */; };
+		30D756BB2AD94C4E0045CDEE /* SwifterSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 30D756BA2AD94C4E0045CDEE /* SwifterSwift */; };
+		30D756BD2ADCC0650045CDEE /* PeriodicTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D756BC2ADCC0650045CDEE /* PeriodicTable.swift */; };
+		30D756C12ADCC79B0045CDEE /* NumberCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D756C02ADCC79B0045CDEE /* NumberCell.swift */; };
+		30D756C32ADCC8480045CDEE /* NumberViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D756C22ADCC8480045CDEE /* NumberViewModel.swift */; };
+		30D756C52ADCCABA0045CDEE /* EmbeddedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D756C42ADCCABA0045CDEE /* EmbeddedCollectionViewCell.swift */; };
+		30D756C82ADD03660045CDEE /* periodictable.json in Resources */ = {isa = PBXBuildFile; fileRef = 30D756C72ADD03660045CDEE /* periodictable.json */; };
+		30D756CA2ADD05650045CDEE /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D756C92ADD05650045CDEE /* Colors.swift */; };
+		30D756CD2ADD06270045CDEE /* Hue in Frameworks */ = {isa = PBXBuildFile; productRef = 30D756CC2ADD06270045CDEE /* Hue */; };
+		30D756CF2ADD09460045CDEE /* LargeTitleSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D756CE2ADD09460045CDEE /* LargeTitleSectionController.swift */; };
+		30D756D12ADD0A690045CDEE /* LargeTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D756D02ADD0A690045CDEE /* LargeTitleCell.swift */; };
+		30D756D32ADD11830045CDEE /* LargeTitleHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D756D22ADD11830045CDEE /* LargeTitleHeaderView.swift */; };
+		30D756D62ADD1EA10045CDEE /* PeriodicTableUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D756D52ADD1EA10045CDEE /* PeriodicTableUseCase.swift */; };
+		30D756D82ADD2DFD0045CDEE /* ChemicalElementItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D756D72ADD2DFD0045CDEE /* ChemicalElementItem.swift */; };
+		30D756DA2ADE27340045CDEE /* ColorCoded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D756D92ADE27340045CDEE /* ColorCoded.swift */; };
+		30D756DE2ADE5C6E0045CDEE /* ChemicalElementsSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D756DD2ADE5C6E0045CDEE /* ChemicalElementsSectionController.swift */; };
+		30D756E02ADE662F0045CDEE /* NumberSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D756DF2ADE662F0045CDEE /* NumberSectionController.swift */; };
+		30D756E22ADE815B0045CDEE /* EmptyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D756E12ADE815B0045CDEE /* EmptyCell.swift */; };
+		30D756E42ADE8B910045CDEE /* PeriodicTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D756E32ADE8B910045CDEE /* PeriodicTableCell.swift */; };
+		30D756E62ADF72E10045CDEE /* PlaceholderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D756E52ADF72E10045CDEE /* PlaceholderViewModel.swift */; };
+		30D756E82ADF74670045CDEE /* PlaceholderSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D756E72ADF74670045CDEE /* PlaceholderSectionController.swift */; };
+		30D756EA2ADF8CAE0045CDEE /* PeriodicTableSortViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D756E92ADF8CAE0045CDEE /* PeriodicTableSortViewModel.swift */; };
+		30D756EE2ADFBE710045CDEE /* LanthanideSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D756ED2ADFBE710045CDEE /* LanthanideSectionController.swift */; };
+		30D756F02ADFCB2D0045CDEE /* LabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D756EF2ADFCB2D0045CDEE /* LabelCell.swift */; };
+		30D756F22ADFCBFE0045CDEE /* ActinideSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D756F12ADFCBFE0045CDEE /* ActinideSectionController.swift */; };
+		30D756F42ADFD3CF0045CDEE /* PeriodicTableSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D756F32ADFD3CF0045CDEE /* PeriodicTableSort.swift */; };
+		30D756F62ADFD6FC0045CDEE /* PeriodicTableSortSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D756F52ADFD6FC0045CDEE /* PeriodicTableSortSectionController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +74,7 @@
 		30D7563A2AD8E3230045CDEE /* PeriodicTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeriodicTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30D7563D2AD8E3230045CDEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30D7563F2AD8E3230045CDEE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		30D756412AD8E3230045CDEE /* RootsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootsViewController.swift; sourceTree = "<group>"; };
+		30D756412AD8E3230045CDEE /* PeriodicTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicTableViewController.swift; sourceTree = "<group>"; };
 		30D756442AD8E3230045CDEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30D756462AD8E3250045CDEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30D756492AD8E3250045CDEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +85,35 @@
 		30D7565E2AD8E3250045CDEE /* PeriodicTableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicTableUITests.swift; sourceTree = "<group>"; };
 		30D756602AD8E3250045CDEE /* PeriodicTableUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicTableUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		30D756722AD8E5810045CDEE /* UIViewController+Swizzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Swizzle.swift"; sourceTree = "<group>"; };
+		30D7569F2AD93B810045CDEE /* IGListKit-main */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "IGListKit-main"; path = "../../../../IGListKit-main"; sourceTree = "<group>"; };
+		30D756A92AD93FB90045CDEE /* ChemicalElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemicalElement.swift; sourceTree = "<group>"; };
+		30D756AC2AD942760045CDEE /* PeriodicTableSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicTableSectionController.swift; sourceTree = "<group>"; };
+		30D756B12AD943790045CDEE /* ChemicalElementCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemicalElementCell.swift; sourceTree = "<group>"; };
+		30D756B42AD94B0B0045CDEE /* ChemicalElementViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemicalElementViewModel.swift; sourceTree = "<group>"; };
+		30D756BC2ADCC0650045CDEE /* PeriodicTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicTable.swift; sourceTree = "<group>"; };
+		30D756C02ADCC79B0045CDEE /* NumberCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberCell.swift; sourceTree = "<group>"; };
+		30D756C22ADCC8480045CDEE /* NumberViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberViewModel.swift; sourceTree = "<group>"; };
+		30D756C42ADCCABA0045CDEE /* EmbeddedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbeddedCollectionViewCell.swift; sourceTree = "<group>"; };
+		30D756C72ADD03660045CDEE /* periodictable.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = periodictable.json; sourceTree = "<group>"; };
+		30D756C92ADD05650045CDEE /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		30D756CE2ADD09460045CDEE /* LargeTitleSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeTitleSectionController.swift; sourceTree = "<group>"; };
+		30D756D02ADD0A690045CDEE /* LargeTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeTitleCell.swift; sourceTree = "<group>"; };
+		30D756D22ADD11830045CDEE /* LargeTitleHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeTitleHeaderView.swift; sourceTree = "<group>"; };
+		30D756D52ADD1EA10045CDEE /* PeriodicTableUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicTableUseCase.swift; sourceTree = "<group>"; };
+		30D756D72ADD2DFD0045CDEE /* ChemicalElementItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemicalElementItem.swift; sourceTree = "<group>"; };
+		30D756D92ADE27340045CDEE /* ColorCoded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCoded.swift; sourceTree = "<group>"; };
+		30D756DD2ADE5C6E0045CDEE /* ChemicalElementsSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemicalElementsSectionController.swift; sourceTree = "<group>"; };
+		30D756DF2ADE662F0045CDEE /* NumberSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberSectionController.swift; sourceTree = "<group>"; };
+		30D756E12ADE815B0045CDEE /* EmptyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyCell.swift; sourceTree = "<group>"; };
+		30D756E32ADE8B910045CDEE /* PeriodicTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicTableCell.swift; sourceTree = "<group>"; };
+		30D756E52ADF72E10045CDEE /* PlaceholderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderViewModel.swift; sourceTree = "<group>"; };
+		30D756E72ADF74670045CDEE /* PlaceholderSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderSectionController.swift; sourceTree = "<group>"; };
+		30D756E92ADF8CAE0045CDEE /* PeriodicTableSortViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicTableSortViewModel.swift; sourceTree = "<group>"; };
+		30D756ED2ADFBE710045CDEE /* LanthanideSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanthanideSectionController.swift; sourceTree = "<group>"; };
+		30D756EF2ADFCB2D0045CDEE /* LabelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelCell.swift; sourceTree = "<group>"; };
+		30D756F12ADFCBFE0045CDEE /* ActinideSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActinideSectionController.swift; sourceTree = "<group>"; };
+		30D756F32ADFD3CF0045CDEE /* PeriodicTableSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicTableSort.swift; sourceTree = "<group>"; };
+		30D756F52ADFD6FC0045CDEE /* PeriodicTableSortSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicTableSortSectionController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +121,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30D756A12AD93B9E0045CDEE /* IGListDiffKit in Frameworks */,
+				30D756B82AD94C160045CDEE /* SnapKit in Frameworks */,
+				30D756A32AD93B9E0045CDEE /* IGListKit in Frameworks */,
+				30D756CD2ADD06270045CDEE /* Hue in Frameworks */,
+				30D756BB2AD94C4E0045CDEE /* SwifterSwift in Frameworks */,
+				30D756A52AD93B9E0045CDEE /* IGListSwiftKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +154,7 @@
 				30D756532AD8E3250045CDEE /* PeriodicTableTests */,
 				30D7565D2AD8E3250045CDEE /* PeriodicTableUITests */,
 				30D7563B2AD8E3230045CDEE /* Products */,
+				30D756972AD936DF0045CDEE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +171,10 @@
 		30D7563C2AD8E3230045CDEE /* PeriodicTable */ = {
 			isa = PBXGroup;
 			children = (
+				30D756D42ADD1E8A0045CDEE /* Systems */,
+				30D756C62ADCD4E40045CDEE /* Json */,
+				30D756A62AD93C070045CDEE /* Models */,
+				30D756932AD9368E0045CDEE /* Packages */,
 				30D756712AD8E44C0045CDEE /* Shared */,
 				30D756702AD8E41B0045CDEE /* Features */,
 				30D7563D2AD8E3230045CDEE /* AppDelegate.swift */,
@@ -133,7 +207,7 @@
 		30D756702AD8E41B0045CDEE /* Features */ = {
 			isa = PBXGroup;
 			children = (
-				30D756412AD8E3230045CDEE /* RootsViewController.swift */,
+				30D756AB2AD9424A0045CDEE /* PeriodicTable */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -141,9 +215,113 @@
 		30D756712AD8E44C0045CDEE /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				30D756CE2ADD09460045CDEE /* LargeTitleSectionController.swift */,
 				30D756722AD8E5810045CDEE /* UIViewController+Swizzle.swift */,
+				30D756C42ADCCABA0045CDEE /* EmbeddedCollectionViewCell.swift */,
+				30D756C92ADD05650045CDEE /* Colors.swift */,
+				30D756D02ADD0A690045CDEE /* LargeTitleCell.swift */,
+				30D756D22ADD11830045CDEE /* LargeTitleHeaderView.swift */,
 			);
 			path = Shared;
+			sourceTree = "<group>";
+		};
+		30D756932AD9368E0045CDEE /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				30D7569F2AD93B810045CDEE /* IGListKit-main */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		30D756972AD936DF0045CDEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30D756A62AD93C070045CDEE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				30D756A92AD93FB90045CDEE /* ChemicalElement.swift */,
+				30D756BC2ADCC0650045CDEE /* PeriodicTable.swift */,
+				30D756F32ADFD3CF0045CDEE /* PeriodicTableSort.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		30D756AB2AD9424A0045CDEE /* PeriodicTable */ = {
+			isa = PBXGroup;
+			children = (
+				30D756B32AD94AF80045CDEE /* ViewModel */,
+				30D756B02AD943590045CDEE /* ViewControllers */,
+				30D756AF2AD9434C0045CDEE /* SectionControllers */,
+				30D756AE2AD943460045CDEE /* Views */,
+			);
+			path = PeriodicTable;
+			sourceTree = "<group>";
+		};
+		30D756AE2AD943460045CDEE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				30D756B12AD943790045CDEE /* ChemicalElementCell.swift */,
+				30D756C02ADCC79B0045CDEE /* NumberCell.swift */,
+				30D756E12ADE815B0045CDEE /* EmptyCell.swift */,
+				30D756E32ADE8B910045CDEE /* PeriodicTableCell.swift */,
+				30D756EF2ADFCB2D0045CDEE /* LabelCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		30D756AF2AD9434C0045CDEE /* SectionControllers */ = {
+			isa = PBXGroup;
+			children = (
+				30D756AC2AD942760045CDEE /* PeriodicTableSectionController.swift */,
+				30D756DD2ADE5C6E0045CDEE /* ChemicalElementsSectionController.swift */,
+				30D756DF2ADE662F0045CDEE /* NumberSectionController.swift */,
+				30D756E72ADF74670045CDEE /* PlaceholderSectionController.swift */,
+				30D756ED2ADFBE710045CDEE /* LanthanideSectionController.swift */,
+				30D756F12ADFCBFE0045CDEE /* ActinideSectionController.swift */,
+				30D756F52ADFD6FC0045CDEE /* PeriodicTableSortSectionController.swift */,
+			);
+			path = SectionControllers;
+			sourceTree = "<group>";
+		};
+		30D756B02AD943590045CDEE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				30D756412AD8E3230045CDEE /* PeriodicTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		30D756B32AD94AF80045CDEE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				30D756E52ADF72E10045CDEE /* PlaceholderViewModel.swift */,
+				30D756B42AD94B0B0045CDEE /* ChemicalElementViewModel.swift */,
+				30D756C22ADCC8480045CDEE /* NumberViewModel.swift */,
+				30D756D72ADD2DFD0045CDEE /* ChemicalElementItem.swift */,
+				30D756E92ADF8CAE0045CDEE /* PeriodicTableSortViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		30D756C62ADCD4E40045CDEE /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				30D756C72ADD03660045CDEE /* periodictable.json */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		30D756D42ADD1E8A0045CDEE /* Systems */ = {
+			isa = PBXGroup;
+			children = (
+				30D756D52ADD1EA10045CDEE /* PeriodicTableUseCase.swift */,
+				30D756D92ADE27340045CDEE /* ColorCoded.swift */,
+			);
+			path = Systems;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +340,14 @@
 			dependencies = (
 			);
 			name = PeriodicTable;
+			packageProductDependencies = (
+				30D756A02AD93B9E0045CDEE /* IGListDiffKit */,
+				30D756A22AD93B9E0045CDEE /* IGListKit */,
+				30D756A42AD93B9E0045CDEE /* IGListSwiftKit */,
+				30D756B72AD94C160045CDEE /* SnapKit */,
+				30D756BA2AD94C4E0045CDEE /* SwifterSwift */,
+				30D756CC2ADD06270045CDEE /* Hue */,
+			);
 			productName = PeriodicTable;
 			productReference = 30D7563A2AD8E3230045CDEE /* PeriodicTable.app */;
 			productType = "com.apple.product-type.application";
@@ -234,6 +420,11 @@
 				Base,
 			);
 			mainGroup = 30D756312AD8E3230045CDEE;
+			packageReferences = (
+				30D756B62AD94C160045CDEE /* XCRemoteSwiftPackageReference "SnapKit" */,
+				30D756B92AD94C4E0045CDEE /* XCRemoteSwiftPackageReference "SwifterSwift" */,
+				30D756CB2ADD06270045CDEE /* XCRemoteSwiftPackageReference "Hue" */,
+			);
 			productRefGroup = 30D7563B2AD8E3230045CDEE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -251,6 +442,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				30D7564A2AD8E3250045CDEE /* LaunchScreen.storyboard in Resources */,
+				30D756C82ADD03660045CDEE /* periodictable.json in Resources */,
 				30D756472AD8E3250045CDEE /* Assets.xcassets in Resources */,
 				30D756452AD8E3230045CDEE /* Main.storyboard in Resources */,
 			);
@@ -277,10 +469,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30D756422AD8E3230045CDEE /* RootsViewController.swift in Sources */,
+				30D756EA2ADF8CAE0045CDEE /* PeriodicTableSortViewModel.swift in Sources */,
+				30D756F42ADFD3CF0045CDEE /* PeriodicTableSort.swift in Sources */,
+				30D756C12ADCC79B0045CDEE /* NumberCell.swift in Sources */,
+				30D756F02ADFCB2D0045CDEE /* LabelCell.swift in Sources */,
+				30D756C52ADCCABA0045CDEE /* EmbeddedCollectionViewCell.swift in Sources */,
+				30D756422AD8E3230045CDEE /* PeriodicTableViewController.swift in Sources */,
+				30D756CA2ADD05650045CDEE /* Colors.swift in Sources */,
+				30D756D82ADD2DFD0045CDEE /* ChemicalElementItem.swift in Sources */,
+				30D756F22ADFCBFE0045CDEE /* ActinideSectionController.swift in Sources */,
+				30D756E22ADE815B0045CDEE /* EmptyCell.swift in Sources */,
+				30D756E02ADE662F0045CDEE /* NumberSectionController.swift in Sources */,
 				30D756732AD8E5810045CDEE /* UIViewController+Swizzle.swift in Sources */,
 				30D7563E2AD8E3230045CDEE /* AppDelegate.swift in Sources */,
 				30D756402AD8E3230045CDEE /* SceneDelegate.swift in Sources */,
+				30D756D62ADD1EA10045CDEE /* PeriodicTableUseCase.swift in Sources */,
+				30D756B22AD943790045CDEE /* ChemicalElementCell.swift in Sources */,
+				30D756B52AD94B0B0045CDEE /* ChemicalElementViewModel.swift in Sources */,
+				30D756AA2AD93FB90045CDEE /* ChemicalElement.swift in Sources */,
+				30D756E82ADF74670045CDEE /* PlaceholderSectionController.swift in Sources */,
+				30D756F62ADFD6FC0045CDEE /* PeriodicTableSortSectionController.swift in Sources */,
+				30D756DE2ADE5C6E0045CDEE /* ChemicalElementsSectionController.swift in Sources */,
+				30D756C32ADCC8480045CDEE /* NumberViewModel.swift in Sources */,
+				30D756E62ADF72E10045CDEE /* PlaceholderViewModel.swift in Sources */,
+				30D756EE2ADFBE710045CDEE /* LanthanideSectionController.swift in Sources */,
+				30D756E42ADE8B910045CDEE /* PeriodicTableCell.swift in Sources */,
+				30D756D12ADD0A690045CDEE /* LargeTitleCell.swift in Sources */,
+				30D756BD2ADCC0650045CDEE /* PeriodicTable.swift in Sources */,
+				30D756D32ADD11830045CDEE /* LargeTitleHeaderView.swift in Sources */,
+				30D756DA2ADE27340045CDEE /* ColorCoded.swift in Sources */,
+				30D756CF2ADD09460045CDEE /* LargeTitleSectionController.swift in Sources */,
+				30D756AD2AD942760045CDEE /* PeriodicTableSectionController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,8 +687,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -496,8 +715,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -627,6 +846,63 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		30D756B62AD94C160045CDEE /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+		30D756B92AD94C4E0045CDEE /* XCRemoteSwiftPackageReference "SwifterSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwifterSwift/SwifterSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		30D756CB2ADD06270045CDEE /* XCRemoteSwiftPackageReference "Hue" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/zenangst/Hue.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		30D756A02AD93B9E0045CDEE /* IGListDiffKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = IGListDiffKit;
+		};
+		30D756A22AD93B9E0045CDEE /* IGListKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = IGListKit;
+		};
+		30D756A42AD93B9E0045CDEE /* IGListSwiftKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = IGListSwiftKit;
+		};
+		30D756B72AD94C160045CDEE /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30D756B62AD94C160045CDEE /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		30D756BA2AD94C4E0045CDEE /* SwifterSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30D756B92AD94C4E0045CDEE /* XCRemoteSwiftPackageReference "SwifterSwift" */;
+			productName = SwifterSwift;
+		};
+		30D756CC2ADD06270045CDEE /* Hue */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30D756CB2ADD06270045CDEE /* XCRemoteSwiftPackageReference "Hue" */;
+			productName = Hue;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 30D756322AD8E3230045CDEE /* Project object */;
 }
