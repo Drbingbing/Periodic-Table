@@ -1,0 +1,48 @@
+{ 
+    "categories": [
+        { 
+            "key": "alkali metals",
+            "name": "鹼金屬"
+        },
+        { 
+            "key": "alkaline earth metals",
+            "name": "鹼土金屬"
+        },
+        { 
+            "key": "lanthanides",
+            "name": "鑭系元素"
+        },
+        { 
+            "key": "actinides",
+            "name": "錒系元素"
+        },
+        { 
+            "key": "transition metals",
+            "name": "過渡金屬"
+        },
+        { 
+            "key": "other metals",
+            "name": "貧金屬"
+        },
+        { 
+            "key": "metalloids",
+            "name": "類金屬"
+        },
+        { 
+            "key": "other nonmetals",
+            "name": "非金屬"
+        },
+        { 
+            "key": "halogens",
+            "name": "鹵素"
+        },
+        { 
+            "key": "noble gases",
+            "name": "惰性氣體"
+        },
+        {
+            "key": "unknown",
+            "name": "未知"
+        }
+    ]
+}

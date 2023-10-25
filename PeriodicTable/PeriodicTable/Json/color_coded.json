@@ -1,0 +1,48 @@
+{
+    "colors": [
+        {
+            "key": "鹼金屬",
+            "hex": "FF6666"
+        },
+        {
+            "key": "鹼土金屬",
+            "hex": "FEDEAD"
+        },
+        {
+            "key": "鑭系元素",
+            "hex": "FFBFFE"
+        },
+        {
+            "key": "錒系元素",
+            "hex": "FF99CB"
+        },
+        {
+            "key": "過渡金屬",
+            "hex": "F9DAD0"
+        },
+        {
+            "key": "貧金屬",
+            "hex": "CCCCCC"
+        },
+        {
+            "key": "類金屬",
+            "hex": "CCCC9A"
+        },
+        {
+            "key": "鹵素",
+            "hex": "F5F2B8"
+        },
+        {
+            "key": "惰性氣體",
+            "hex": "C1FEFF"
+        },
+        {
+            "key": "非金屬",
+            "hex": "9FFFCB"
+        },
+        {
+            "key": "未知",
+            "hex": "E8E8E8"
+        }
+    ]
+}

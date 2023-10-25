@@ -8,12 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		30D757042AE12CA90045CDEE /* PeriodicTableApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D757032AE12CA90045CDEE /* PeriodicTableApp.swift */; };
-		30D757062AE12CA90045CDEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D757052AE12CA90045CDEE /* ContentView.swift */; };
+		30D757062AE12CA90045CDEE /* PeriodicTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D757052AE12CA90045CDEE /* PeriodicTableView.swift */; };
 		30D757082AE12CAA0045CDEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30D757072AE12CAA0045CDEE /* Assets.xcassets */; };
 		30D7570B2AE12CAA0045CDEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30D7570A2AE12CAA0045CDEE /* Preview Assets.xcassets */; };
 		30D757162AE12CAA0045CDEE /* PeriodicTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D757152AE12CAA0045CDEE /* PeriodicTableTests.swift */; };
 		30D757202AE12CAA0045CDEE /* PeriodicTableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D7571F2AE12CAA0045CDEE /* PeriodicTableUITests.swift */; };
 		30D757222AE12CAA0045CDEE /* PeriodicTableUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D757212AE12CAA0045CDEE /* PeriodicTableUITestsLaunchTests.swift */; };
+		30D757302AE12D380045CDEE /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 30D7572F2AE12D380045CDEE /* ComposableArchitecture */; };
+		30D757352AE12F3B0045CDEE /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D757342AE12F3B0045CDEE /* AppColor.swift */; };
+		30D757372AE132130045CDEE /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D757362AE132130045CDEE /* Colors.swift */; };
+		30D757392AE205540045CDEE /* ChemicalElementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D757382AE205540045CDEE /* ChemicalElementsView.swift */; };
+		30D7573B2AE209550045CDEE /* ChemicalElementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D7573A2AE209550045CDEE /* ChemicalElementView.swift */; };
+		30D7573F2AE21E3C0045CDEE /* PeriodicTableStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D7573E2AE21E3C0045CDEE /* PeriodicTableStore.swift */; };
+		30D757422AE21E4F0045CDEE /* ChemicalElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D757412AE21E4F0045CDEE /* ChemicalElement.swift */; };
+		30D757472AE230100045CDEE /* periodic_table.json in Resources */ = {isa = PBXBuildFile; fileRef = 30D757462AE230100045CDEE /* periodic_table.json */; };
+		30D757492AE2306E0045CDEE /* ElementCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D757482AE2306E0045CDEE /* ElementCategory.swift */; };
+		30D7574B2AE231540045CDEE /* ChemicalElementsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D7574A2AE231540045CDEE /* ChemicalElementsStore.swift */; };
+		30D7574E2AE24EC80045CDEE /* ChemicalElementClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D7574D2AE24EC80045CDEE /* ChemicalElementClient.swift */; };
+		30D757512AE26F2B0045CDEE /* ChemicalElementViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D757502AE26F2B0045CDEE /* ChemicalElementViewModel.swift */; };
+		30D757522AE274EF0045CDEE /* periodic_table.json in Sources */ = {isa = PBXBuildFile; fileRef = 30D757462AE230100045CDEE /* periodic_table.json */; };
+		30D757542AE282EA0045CDEE /* ColorCodedClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D757532AE282EA0045CDEE /* ColorCodedClient.swift */; };
+		30D757572AE60DFB0045CDEE /* ElementCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D757562AE60DFB0045CDEE /* ElementCategoryView.swift */; };
+		30D7575B2AE6197A0045CDEE /* ElementCategoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D7575A2AE6197A0045CDEE /* ElementCategoryStore.swift */; };
+		30D7575E2AE621AB0045CDEE /* ElementCategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D7575D2AE621AB0045CDEE /* ElementCategoryViewModel.swift */; };
+		30D757602AE622340045CDEE /* ElementCategoryClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D7575F2AE622340045CDEE /* ElementCategoryClient.swift */; };
+		30D757622AE646960045CDEE /* periodic_table_categories.json in Resources */ = {isa = PBXBuildFile; fileRef = 30D757612AE646960045CDEE /* periodic_table_categories.json */; };
+		30D757632AE646AD0045CDEE /* periodic_table_categories.json in Sources */ = {isa = PBXBuildFile; fileRef = 30D757612AE646960045CDEE /* periodic_table_categories.json */; };
+		30D757652AE653530045CDEE /* color_coded.json in Resources */ = {isa = PBXBuildFile; fileRef = 30D757642AE653530045CDEE /* color_coded.json */; };
+		30D757672AE657560045CDEE /* ColorCoded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D757662AE657560045CDEE /* ColorCoded.swift */; };
+		30D7576A2AE761730045CDEE /* ChemicalElementDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D757692AE761730045CDEE /* ChemicalElementDetailView.swift */; };
+		30D7576C2AE76E9F0045CDEE /* LanthanidesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D7576B2AE76E9F0045CDEE /* LanthanidesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +60,7 @@
 /* Begin PBXFileReference section */
 		30D757002AE12CA90045CDEE /* PeriodicTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeriodicTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30D757032AE12CA90045CDEE /* PeriodicTableApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicTableApp.swift; sourceTree = "<group>"; };
-		30D757052AE12CA90045CDEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		30D757052AE12CA90045CDEE /* PeriodicTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicTableView.swift; sourceTree = "<group>"; };
 		30D757072AE12CAA0045CDEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30D7570A2AE12CAA0045CDEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		30D7570C2AE12CAA0045CDEE /* PeriodicTable.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PeriodicTable.entitlements; sourceTree = "<group>"; };
@@ -45,6 +69,27 @@
 		30D7571B2AE12CAA0045CDEE /* PeriodicTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeriodicTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30D7571F2AE12CAA0045CDEE /* PeriodicTableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicTableUITests.swift; sourceTree = "<group>"; };
 		30D757212AE12CAA0045CDEE /* PeriodicTableUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicTableUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		30D757342AE12F3B0045CDEE /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		30D757362AE132130045CDEE /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		30D757382AE205540045CDEE /* ChemicalElementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemicalElementsView.swift; sourceTree = "<group>"; };
+		30D7573A2AE209550045CDEE /* ChemicalElementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemicalElementView.swift; sourceTree = "<group>"; };
+		30D7573E2AE21E3C0045CDEE /* PeriodicTableStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicTableStore.swift; sourceTree = "<group>"; };
+		30D757412AE21E4F0045CDEE /* ChemicalElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemicalElement.swift; sourceTree = "<group>"; };
+		30D757462AE230100045CDEE /* periodic_table.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = periodic_table.json; sourceTree = "<group>"; };
+		30D757482AE2306E0045CDEE /* ElementCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementCategory.swift; sourceTree = "<group>"; };
+		30D7574A2AE231540045CDEE /* ChemicalElementsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemicalElementsStore.swift; sourceTree = "<group>"; };
+		30D7574D2AE24EC80045CDEE /* ChemicalElementClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemicalElementClient.swift; sourceTree = "<group>"; };
+		30D757502AE26F2B0045CDEE /* ChemicalElementViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemicalElementViewModel.swift; sourceTree = "<group>"; };
+		30D757532AE282EA0045CDEE /* ColorCodedClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCodedClient.swift; sourceTree = "<group>"; };
+		30D757562AE60DFB0045CDEE /* ElementCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementCategoryView.swift; sourceTree = "<group>"; };
+		30D7575A2AE6197A0045CDEE /* ElementCategoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementCategoryStore.swift; sourceTree = "<group>"; };
+		30D7575D2AE621AB0045CDEE /* ElementCategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementCategoryViewModel.swift; sourceTree = "<group>"; };
+		30D7575F2AE622340045CDEE /* ElementCategoryClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementCategoryClient.swift; sourceTree = "<group>"; };
+		30D757612AE646960045CDEE /* periodic_table_categories.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = periodic_table_categories.json; sourceTree = "<group>"; };
+		30D757642AE653530045CDEE /* color_coded.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = color_coded.json; sourceTree = "<group>"; };
+		30D757662AE657560045CDEE /* ColorCoded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCoded.swift; sourceTree = "<group>"; };
+		30D757692AE761730045CDEE /* ChemicalElementDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemicalElementDetailView.swift; sourceTree = "<group>"; };
+		30D7576B2AE76E9F0045CDEE /* LanthanidesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanthanidesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30D757302AE12D380045CDEE /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,8 +141,12 @@
 		30D757022AE12CA90045CDEE /* PeriodicTable */ = {
 			isa = PBXGroup;
 			children = (
+				30D7574C2AE24E840045CDEE /* System */,
+				30D757432AE21E5D0045CDEE /* Json */,
+				30D757402AE21E440045CDEE /* Model */,
+				30D757332AE12F330045CDEE /* Shared */,
+				30D757312AE12D400045CDEE /* Features */,
 				30D757032AE12CA90045CDEE /* PeriodicTableApp.swift */,
-				30D757052AE12CA90045CDEE /* ContentView.swift */,
 				30D757072AE12CAA0045CDEE /* Assets.xcassets */,
 				30D7570C2AE12CAA0045CDEE /* PeriodicTable.entitlements */,
 				30D757092AE12CAA0045CDEE /* Preview Content */,
@@ -129,6 +179,135 @@
 			path = PeriodicTableUITests;
 			sourceTree = "<group>";
 		};
+		30D757312AE12D400045CDEE /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				30D757682AE761500045CDEE /* ChemicalElementDetail */,
+				30D757552AE60DE70045CDEE /* ElementCategory */,
+				30D757322AE12D460045CDEE /* PeriodicTable */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		30D757322AE12D460045CDEE /* PeriodicTable */ = {
+			isa = PBXGroup;
+			children = (
+				30D7574F2AE26F1A0045CDEE /* ViewModel */,
+				30D7573D2AE21E300045CDEE /* Store */,
+				30D7573C2AE21E130045CDEE /* Views */,
+			);
+			path = PeriodicTable;
+			sourceTree = "<group>";
+		};
+		30D757332AE12F330045CDEE /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				30D757342AE12F3B0045CDEE /* AppColor.swift */,
+				30D757362AE132130045CDEE /* Colors.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		30D7573C2AE21E130045CDEE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				30D757052AE12CA90045CDEE /* PeriodicTableView.swift */,
+				30D757382AE205540045CDEE /* ChemicalElementsView.swift */,
+				30D7573A2AE209550045CDEE /* ChemicalElementView.swift */,
+				30D7576B2AE76E9F0045CDEE /* LanthanidesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		30D7573D2AE21E300045CDEE /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				30D7573E2AE21E3C0045CDEE /* PeriodicTableStore.swift */,
+				30D7574A2AE231540045CDEE /* ChemicalElementsStore.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		30D757402AE21E440045CDEE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				30D757412AE21E4F0045CDEE /* ChemicalElement.swift */,
+				30D757482AE2306E0045CDEE /* ElementCategory.swift */,
+				30D757662AE657560045CDEE /* ColorCoded.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		30D757432AE21E5D0045CDEE /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				30D757642AE653530045CDEE /* color_coded.json */,
+				30D757612AE646960045CDEE /* periodic_table_categories.json */,
+				30D757462AE230100045CDEE /* periodic_table.json */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		30D7574C2AE24E840045CDEE /* System */ = {
+			isa = PBXGroup;
+			children = (
+				30D7574D2AE24EC80045CDEE /* ChemicalElementClient.swift */,
+				30D757532AE282EA0045CDEE /* ColorCodedClient.swift */,
+				30D7575F2AE622340045CDEE /* ElementCategoryClient.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		30D7574F2AE26F1A0045CDEE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				30D757502AE26F2B0045CDEE /* ChemicalElementViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		30D757552AE60DE70045CDEE /* ElementCategory */ = {
+			isa = PBXGroup;
+			children = (
+				30D7575C2AE6219B0045CDEE /* ViewModel */,
+				30D757592AE619330045CDEE /* Stores */,
+				30D757582AE6192A0045CDEE /* Views */,
+			);
+			path = ElementCategory;
+			sourceTree = "<group>";
+		};
+		30D757582AE6192A0045CDEE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				30D757562AE60DFB0045CDEE /* ElementCategoryView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		30D757592AE619330045CDEE /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				30D7575A2AE6197A0045CDEE /* ElementCategoryStore.swift */,
+			);
+			name = Stores;
+			sourceTree = "<group>";
+		};
+		30D7575C2AE6219B0045CDEE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				30D7575D2AE621AB0045CDEE /* ElementCategoryViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		30D757682AE761500045CDEE /* ChemicalElementDetail */ = {
+			isa = PBXGroup;
+			children = (
+				30D757692AE761730045CDEE /* ChemicalElementDetailView.swift */,
+			);
+			path = ChemicalElementDetail;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +324,9 @@
 			dependencies = (
 			);
 			name = PeriodicTable;
+			packageProductDependencies = (
+				30D7572F2AE12D380045CDEE /* ComposableArchitecture */,
+			);
 			productName = PeriodicTable;
 			productReference = 30D757002AE12CA90045CDEE /* PeriodicTable.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +399,9 @@
 				Base,
 			);
 			mainGroup = 30D756F72AE12CA90045CDEE;
+			packageReferences = (
+				30D7572E2AE12D380045CDEE /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = 30D757012AE12CA90045CDEE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,8 +418,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30D757622AE646960045CDEE /* periodic_table_categories.json in Resources */,
+				30D757472AE230100045CDEE /* periodic_table.json in Resources */,
 				30D7570B2AE12CAA0045CDEE /* Preview Assets.xcassets in Resources */,
 				30D757082AE12CAA0045CDEE /* Assets.xcassets in Resources */,
+				30D757652AE653530045CDEE /* color_coded.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +447,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30D757062AE12CA90045CDEE /* ContentView.swift in Sources */,
+				30D757632AE646AD0045CDEE /* periodic_table_categories.json in Sources */,
+				30D757522AE274EF0045CDEE /* periodic_table.json in Sources */,
+				30D757422AE21E4F0045CDEE /* ChemicalElement.swift in Sources */,
+				30D757572AE60DFB0045CDEE /* ElementCategoryView.swift in Sources */,
+				30D757492AE2306E0045CDEE /* ElementCategory.swift in Sources */,
+				30D757542AE282EA0045CDEE /* ColorCodedClient.swift in Sources */,
+				30D7574B2AE231540045CDEE /* ChemicalElementsStore.swift in Sources */,
+				30D7573F2AE21E3C0045CDEE /* PeriodicTableStore.swift in Sources */,
+				30D7574E2AE24EC80045CDEE /* ChemicalElementClient.swift in Sources */,
+				30D757062AE12CA90045CDEE /* PeriodicTableView.swift in Sources */,
+				30D7575E2AE621AB0045CDEE /* ElementCategoryViewModel.swift in Sources */,
+				30D757372AE132130045CDEE /* Colors.swift in Sources */,
+				30D7575B2AE6197A0045CDEE /* ElementCategoryStore.swift in Sources */,
+				30D757352AE12F3B0045CDEE /* AppColor.swift in Sources */,
+				30D757392AE205540045CDEE /* ChemicalElementsView.swift in Sources */,
+				30D7576C2AE76E9F0045CDEE /* LanthanidesView.swift in Sources */,
 				30D757042AE12CA90045CDEE /* PeriodicTableApp.swift in Sources */,
+				30D7576A2AE761730045CDEE /* ChemicalElementDetailView.swift in Sources */,
+				30D7573B2AE209550045CDEE /* ChemicalElementView.swift in Sources */,
+				30D757672AE657560045CDEE /* ColorCoded.swift in Sources */,
+				30D757512AE26F2B0045CDEE /* ChemicalElementViewModel.swift in Sources */,
+				30D757602AE622340045CDEE /* ElementCategoryClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -581,6 +789,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		30D7572E2AE12D380045CDEE /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		30D7572F2AE12D380045CDEE /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30D7572E2AE12D380045CDEE /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 30D756F82AE12CA90045CDEE /* Project object */;
 }
